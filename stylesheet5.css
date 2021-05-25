@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  background-color: #fecfcc;
+}
+
+
+.header {
+  background: #EF98EE ;
+  padding: 60px;
+  text-align: center;
+  color: white;
+}
+
+
+.header h1 {
+  font-size: 50px;
+}
+
+
+.navbar {
+    
+  background-color: #48D1CC;
+  overflow: hidden;
+
+}
+
+
+.navbar a {
+
+  padding: 25px 25px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  float: left;
+  display: block;
+
+}
+
+
+.navbar .right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar :hover {
+  background-color: #CEEAEA;
+  color: black;
+}
+
+
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+
+.side {
+    
+  background-color: #EEEEEE;
+  padding: 10px;
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+
+}
+
+/* Main column */
+.main { 
+    
+  
+  padding: 25px;
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+
+}
+
+
+
+
+
+.footer {
+  padding: 25px;
+  text-align: center;
+  background: #48D1CC;
+}
