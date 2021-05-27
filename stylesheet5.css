@@ -6,12 +6,11 @@
 body {
   font-family: "Times New Roman", Times, serif;
   margin: 0;
-  background-color: #fecfcc;
+  background-color: #EEEEEE;
 }
 
-
 .header {
-  background: #EF98EE ;
+  background: #211e21 ;
   padding: 60px;
   text-align: center;
   color: white;
@@ -25,7 +24,7 @@ body {
 
 .navbar {
     
-  background-color: #48D1CC;
+  background-color: #a3d2b5;
   overflow: hidden;
 
 }
@@ -53,24 +52,6 @@ body {
   color: black;
 }
 
-
-.row {  
-  display: -ms-flexbox; 
-  display: flex;
-  -ms-flex-wrap: wrap; 
-  flex-wrap: wrap;
-}
-
-
-.side {
-    
-  background-color: #EEEEEE;
-  padding: 10px;
-  -ms-flex: 30%; /* IE10 */
-  flex: 30%;
-
-}
-
 /* Main column */
 .main { 
     
@@ -78,15 +59,12 @@ body {
   padding: 25px;
   -ms-flex: 70%; /* IE10 */
   flex: 70%;
+  text-align: center;
 
 }
-
-
-
-
 
 .footer {
   padding: 25px;
   text-align: center;
-  background: #48D1CC;
+  background: #a3d2b5;
 }
